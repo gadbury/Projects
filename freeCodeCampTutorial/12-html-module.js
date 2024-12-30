@@ -19,11 +19,13 @@ const server = http.createServer((req, res) => {
         )
     }
     return res.end(
-        '<h2>PAGE NOT FOUND</p>'+
+        `<h2>Welcome to ${req.url}</p>`+
         '<p>your fault not mine</p>'+
         '<a href="/"><p>go home</p></a>'+
         '<a href="/about"><p>educate yourself</p></a>'
     )
+
+    
 
 })
 
