@@ -1,1 +1,4 @@
-doobeeboo
+This was a project I made in class that involved peer programming and integration. I built the backend of this project and integrated another student's frontend. 
+The backend of the project takes the songs.csv file (data retrieved from the Spotify API) and formats each row into a song object, each object is then stored in a red black tree
+The backend also includes methods to filter songs by year, loudness, and to return the top 5 most danceable songs.
+The frontend creates a text-based UI to use all the methods of the backend easily, the two can be used together by running app.java.
