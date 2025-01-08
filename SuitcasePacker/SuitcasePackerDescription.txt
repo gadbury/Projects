@@ -1,0 +1,6 @@
+This was a project I made in class that helped me gain a better understanding of how to use recursion. 
+The project's goal is to write an algorithm to pack a certain amount of rectangular objects of varying sizes into a rectangular suitcase. 
+There are 3 different recursive algorithms for completing this task
+Rushed Packing - Goes through list of items in order and packs whatever will fit in that order
+Greedy Packing - Makes a new item list sorted from largest to smallest, then packs as many items as possible in that order
+Optimal Packing - Tests every possible permutation of item packing and returns the optimal one
